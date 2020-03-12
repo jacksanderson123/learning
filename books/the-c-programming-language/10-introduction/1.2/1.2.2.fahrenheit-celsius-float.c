@@ -11,6 +11,7 @@ int main(int argc, char const *argv[])
     step = 20;
     
     fahr = lower;
+    printf("Fanhrenheit to Celsius Table\n");
     while(fahr <= upper)
     {
         celsius = (5.0/9.0) * (fahr-32.0);
